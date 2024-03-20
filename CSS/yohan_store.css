@@ -147,6 +147,9 @@ section.main .main-text .text a {
   border-radius: 5px;
   width: 200px;
 }
+section.main .main-text .text a:hover {
+  background-color: rgb(0, 98, 231);
+}
 section.main .main-text .text a i {
   margin-left: 10px;
 }
@@ -323,6 +326,9 @@ section.app .main-text .text3 {
   font-size: 1.2em;
   line-height: 56px;
 }
+section.app .main-text .text3:hover {
+  background-color: rgb(0, 98, 231);
+}
 /* //section.app */
 
 /* section.knowhow */
@@ -433,6 +439,9 @@ section.expense .main-text .text3 {
   font-size: 1.2em;
   line-height: 56px;
 }
+section.expense .main-text .text3:hover {
+  background-color: rgb(0, 98, 231);
+}
 /* //section.expense */
 
 /* section.consulting */
@@ -463,14 +472,18 @@ section.consulting .main-text a {
   background-color: #fff;
   width: 132px;
   height: 56px;
-  padding-top: 16px;
+  line-height: 56px;
   font-size: 1.3em;
   border-radius: 5px;
   margin-top: 20px;
 }
+section.consulting .main-text a:hover {
+  background-color: #f0f0e9;
+}
 section.consulting .main-text p {
   color: #fff;
   margin-top: 25px;
+  font-size: 0.8em;
 }
 /* //section.consulting */
 
