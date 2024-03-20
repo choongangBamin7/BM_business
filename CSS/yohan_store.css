@@ -1,11 +1,11 @@
 @import url("common.css");
 
 @font-face {
-  font-family: "HANNAPrO";
-  src: url(../font/BMHANNAPro.ttf);
+  font-family: "JUA";
+  src: url(../font/BMJUA_ttf.ttf);
 }
 body {
-  font-family: "HANNAPrO";
+  font-family: "JUA";
 }
 /* header style */
 /* 이 클래스는 페이지 제목에 색이 바뀌는 효과를 위한 것입니다.*/
@@ -135,14 +135,20 @@ section.main .main-text .text h2 {
   font-size: 2.7em;
 }
 section.main .main-text .text p {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin: 25px 0;
 }
 section.main .main-text .text a {
-  font-size: 1.3em;
   background-color: rgb(26, 124, 255);
-  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
   border-radius: 5px;
+  width: 200px;
+}
+section.main .main-text .text a i {
+  margin-left: 10px;
 }
 section.main .main-text .text p:last-child {
   line-height: 16px;
