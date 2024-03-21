@@ -173,7 +173,10 @@ section.service .list li span{
 section.solution {
   background: rgb(241, 240, 240);
   width: 100%;
+
+  position: relative;
   }
+
   section.solution .title {
     width: 70%;
     margin: auto;
@@ -191,11 +194,13 @@ section.solution .list {
 
 section.solution .list li {
   background: #fff;
-  width: 600px;
+  width: 45%;
   height: 500px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
+
 section.solution .list li:nth-child(1),
 section.solution .list li:nth-child(2)
  {margin-bottom: 30px; }
@@ -308,6 +313,9 @@ section.growth .bottom p {
 /* <!-- //section business --> */
 section.business .list li {
   overflow: hidden;
+  /* background: orange; */
+  width: 47%;
+
 }
 
 section.business .list li img{ 
@@ -326,7 +334,7 @@ section.business .list li div{
 section.business .list li span{
   /* background: violet;  */
   line-height: 1.2;
-  font-size: 18px;
+  font-size: 17px;
   padding-bottom: 0px;
   height: 100px;
 }
