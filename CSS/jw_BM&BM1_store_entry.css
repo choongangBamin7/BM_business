@@ -398,7 +398,7 @@ section.main .main_contents {
   margin: 0 auto;
   width: 70%;
 }
-section.main .main_contents h2 {
+section.main .main_contents>h2 {
   margin: 0 auto;
   text-align: center;
   line-height: 1.5;
@@ -408,10 +408,7 @@ section.main .main_contents>p {
   margin: 0 auto;
   font-size: 25px;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 10px;
   color: #7e8082;
-  margin-bottom: 30px;
 }
 section.main .main_contents .main_contents_btn {
   display: flex;
@@ -609,8 +606,8 @@ section.main .main_contents .store_delivery .content_box>div>.openlist_img img {
   height: 144px;
 }
 section.main .main_contents>p {
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 section.main .main_contents>p>em {
   color: #7e8082;
@@ -625,7 +622,7 @@ section.submain {
 section.submain .submain_contents {
   width: 70%;
   margin: 100px auto;
-  padding: 120px 0;
+  padding: 60px 0 100px;
 }
 section.submain .submain_contents h2 {
   font-weight: 400;
@@ -633,7 +630,7 @@ section.submain .submain_contents h2 {
   font-size: 50px;
   line-height: 1.5;
   padding: 50px;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 section.submain .submain_contents .submain_box {
   display: flex;
@@ -700,6 +697,42 @@ section.submain .submain_contents .submain_box .mystore_click .mystore_click_box
   width: 240px;
   height: 144px;
 }
+/* section.ad */
+section.ad {
+  background: #fff;
+}
+section.ad .ad_contents {
+  width: 70%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+section.ad .ad_contents h2 {
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
+section.ad .ad_contents .ad_box {
+  display: flex;
+  justify-content: space-between;
+}
+section.ad .ad_contents .ad_box .ad_box_content {
+  width: 32%;
+  overflow: hidden;
+}
+section.ad .ad_contents .ad_box .ad_box_content a {
+  display: block;
+}
+section.ad .ad_contents .ad_box .ad_box_content a img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* section.consulting */
+
 /* footer style */
 
 footer {
