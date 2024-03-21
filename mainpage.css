@@ -48,9 +48,13 @@ section.main .main-title {
 }
 
 section.main .main-title .underline {
-  position: absolute;
+  position: relative;
   bottom: 50px;
   left: 35%;
+}
+
+section.main .main-title .underline img{
+  width: 200px;
 }
 
 
