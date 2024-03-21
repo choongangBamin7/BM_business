@@ -836,6 +836,58 @@ section.attachment .attachment_btn {
   background: #fff;
   font-size: 25px;
 }
+/* section.know_how */
+section.know_how {
+  background: #fff;
+  padding: 100px;
+}
+section.know_how .know_how_contents {
+  width: 70%;
+  margin: 0 auto;
+}
+section.know_how .know_how_contents h2 {
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 80px;
+}
+section.know_how .know_how_contents .Know {
+  margin-bottom: 50px;
+}
+section.know_how .know_how_contents .Know h3 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+section.know_how .know_how_contents .Know .box {
+  display: flex;
+  justify-content: space-between;
+}
+section.know_how .know_how_contents .Know .box a {
+  display: block;
+  width: 32.5%;
+}
+/* section.know_how .know_how_contents .Know .box .box_content {
+  width: 32.5%;
+} */
+section.know_how .know_how_contents .Know .box .box_content .img_box {
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+}
+section.know_how .know_how_contents .Know .box .box_content .img_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+section.know_how .know_how_contents .Know .box .box_content h4 {
+  font-size: 15px;
+  margin: 5px 0;
+}
+section.know_how .know_how_contents .Know .box .box_content p {
+  color: #7e8082;
+  font-size: 14px;
+}
 /* footer style */
 
 footer {
