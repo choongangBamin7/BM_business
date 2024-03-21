@@ -1,0 +1,339 @@
+/* reset css */
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css');
+
+/* font awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+
+/* reset */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+/* common style */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* section.main  */
+
+section.main {
+  background-image: url("https://ceo-cdn.baemin.com/optimize?src=https%3A%2F%2Fceo-cdn.baemin.com%2Fcdn%2Fceo-square%2Fproduction%2Fstatic%2Fsrc%2Fimages%2Fbusiness%2Fmain%2Fbusiness-hero-back.jpg%3Fver%3D85165fe470c88f655d886fd9cb5c69b7");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 420px;
+
+  position: relative;
+}
+
+section.main .main-title {
+  background: rgba(0, 0, 0, 0.4);
+  height: 420px;
+
+  position: relative;
+}
+
+section.main .main-title .underline {
+  position: absolute;
+  bottom: 50px;
+  left: 35%;
+}
+
+
+section.main .bb-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+section.main .title{
+  /* background: orange; */
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px;
+}
+
+/* <!-- //section main -->  */
+
+/*  공통  */
+section {
+  /* background: blue; */
+  width: 70%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+section .title {
+  /* border: 4px solid #000; */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+section .list {
+  /* border: 4px solid #000; */
+  display: flex;
+  justify-content: space-between;
+}
+
+section .list li{ 
+  background: rgb(241, 240, 240);
+  border-radius: 30px ;
+  width: 45%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+section .list li div{
+  /* background: yellow;  */
+  width: 300px;
+  padding-left: 30px;
+}
+
+section .list li em{ 
+  /* background: orange; */
+  font-size: 30px;
+  font-weight: 700;
+
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
+
+section .list li span{
+  /* background: violet;  */
+  font-size: 20px;
+  color: gray;
+  line-height: 1.3;
+  font-weight: 700;
+  
+  height: 110px;
+  display: flex;
+}
+
+section .list li img{ 
+  /* background: #000; */
+  margin-right: 40px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+/* 공통 */
+
+/* <!-- //section service --> */
+
+section.service .list li em{ 
+  /* background: orange; */
+  font-size: 30px;
+  font-weight: 700;
+
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
+
+section.service .list li span{
+  /* background: violet;  */
+  font-size: 20px;
+  color: gray;
+  
+  height: 110px;
+  display: flex;
+}
+
+/* <!-- //section service --> */
+
+
+/* <!-- //section solution --> */
+section.solution {
+  background: rgb(241, 240, 240);
+  width: 100%;
+  }
+  section.solution .title {
+    width: 70%;
+    margin: auto;
+  }
+
+section.solution .list {
+  background: rgb(241, 240, 240);
+  width: 70%;
+  margin: auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section.solution .list li {
+  background: #fff;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+section.solution .list li:nth-child(1),
+section.solution .list li:nth-child(2)
+ {margin-bottom: 30px; }
+
+section.solution .list li em {
+  /* background: orange; */
+  width: 400px;
+  line-height: 1.3;
+}
+section.solution .list li p {
+  /* background: orange; */
+  width: 400px;
+  line-height: 1.5;
+  color: gray;
+  font-weight: 700;
+}
+
+section.solution .list li img{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+}
+
+/* <!-- //section solution --> */
+
+/* <!-- //section experience --> */
+section.experience .list li {
+  position: relative;
+}
+
+section.experience .list li div{
+  /* background: yellow;  */
+  width: 400px;
+  padding-left: 40px;
+}
+
+section.experience .list li em {
+  line-height: 1.5;
+  padding: 80px 0;
+}
+
+section.experience .list li span{
+  /* background: violet;  */
+  line-height: 1.2;
+  height: 80px;
+  font-size: 18px;
+}
+
+section.experience .list .date{
+  /* background: yellow;  */
+  color: gray;
+  font-weight: 700;
+  width: 400px;
+  height: 50px;
+  font-size: 14px;
+}
+
+section.experience .list li img{ 
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+}
+/* <!-- //section experience --> */
+
+
+/* <!-- //section growth --> */
+
+section.growth {
+  /* background: orange; */
+  width: 100%;
+  background: rgb(241, 240, 240);
+  position: relative;
+}
+
+section.growth .title {
+  text-align: center;
+}
+
+section.growth img {
+  border-radius: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+section.growth .growth-center {
+  width: 60%;
+  margin: auto;
+}
+
+section.growth .bottom {
+  font-weight: 700;
+  padding-top: 40px;
+  padding-left: 370px;
+}
+
+section.growth .bottom em {
+  font-size: 30px;
+}
+
+section.growth .bottom p {
+  /* background: tomato; */
+  font-size: 20px;
+  color: gray;
+  padding-top: 20px;
+}
+
+/* <!-- //section growth --> */
+
+
+/* <!-- //section business --> */
+section.business .list li {
+  overflow: hidden;
+}
+
+section.business .list li img{ 
+  width: 200px;
+  height: auto;
+}
+
+section.business .list li div{
+  /* background: yellow;  */
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+
+section.business .list li span{
+  /* background: violet;  */
+  line-height: 1.2;
+  font-size: 18px;
+  padding-bottom: 0px;
+  height: 100px;
+}
+
+section.business .list li p{ 
+  color: blue;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section.business .list li p i{ 
+  margin-left: 10px;
+}
+ 
