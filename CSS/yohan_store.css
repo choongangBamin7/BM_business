@@ -123,11 +123,22 @@ section.main::before {
 section.main .main-text {
   color: #fff;
   position: absolute;
-  top: 60%;
-  left: 28%;
+  top: 35%;
+  left: 20%;
   transform: translate(-50%, -50%);
   line-height: 50px;
+  /* animation: fadeIn 1s forwards; */
 }
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+    bottom: -50px;
+  }
+  to {
+    opacity: 1;
+    bottom: 10px;
+  }
+} */
 section.main .main-text img {
   width: 140px;
 }
@@ -170,6 +181,20 @@ section.recommend .main-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  position: relative;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    bottom: -50px;
+  }
+  to {
+    opacity: 1;
+    bottom: 10px;
+  }
 }
 
 section.recommend .main-text .box {
@@ -462,6 +487,7 @@ section.consulting .main-text {
   position: absolute;
   text-align: center;
 }
+
 section.consulting .main-text h2 {
   color: #fff;
   font-size: 2.7em;
