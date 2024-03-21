@@ -101,6 +101,9 @@ header .header2 .main-header .gnb li {
   padding-top: 20px;
   padding-bottom: 30px;
 }
+header .header2 .main-header .gnb li a {
+  display: block;
+}
 header .header2 .main-header .gnb li:last-child{
   margin-right: 0;
 }

@@ -4,6 +4,7 @@
 /* font awesome */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
 
+
 /* reset */
 a {
   color: inherit;
@@ -28,6 +29,9 @@ input {
 }
 
 /* footer style */
+section.mark {
+  padding-bottom: 0;
+}
 
 footer {
   width: 70%;
