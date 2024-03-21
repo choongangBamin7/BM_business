@@ -1033,10 +1033,9 @@ footer .service-info .select button {
 footer .service-info .select i {
   color: #999;
   text-align: right;
-  
+
   position: relative;
   left: 50px;
-  !important
 }
 
 footer .service-info .share {
