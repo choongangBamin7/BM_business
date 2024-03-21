@@ -3,6 +3,33 @@
   font-family: "Hanna";
   src: url(../font/BMHANNAPro.ttf);
 }
+/* reset css */
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css');
+
+/* reset */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+/* common style */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* font awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
 body {
   font-family: "Hanna";
 }
@@ -100,6 +127,9 @@ header .header2 .main-header .gnb li {
   margin: 0 10px;
   padding-top: 20px;
   padding-bottom: 30px;
+}
+header .header2 .main-header .gnb li a {
+  display: block;
 }
 header .header2 .main-header .gnb li:last-child{
   margin-right: 0;
@@ -892,7 +922,9 @@ section.know_how .know_how_contents .Know .box .box_content p {
   font-size: 14px;
 }
 /* footer style */
-
+section.mark {
+  padding-bottom: 0;
+}
 footer {
   width: 70%;
   margin: auto;
@@ -994,6 +1026,7 @@ footer .service-info .select i {
   
   position: relative;
   left: 50px;
+  !important
 }
 
 footer .service-info .share {
