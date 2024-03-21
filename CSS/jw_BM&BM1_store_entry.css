@@ -142,6 +142,16 @@ section.visual {
   position: relative;
   height: 640px;
   margin-top: 164px;
+  z-index: -2;
+}
+section.visual::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: -1;
 }
 section.visual .text {
   position: absolute;
