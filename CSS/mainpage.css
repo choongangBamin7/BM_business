@@ -200,7 +200,7 @@ section.mark {
 section .title {
   /* border: 4px solid #000; */
   font-size: 40px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 1.5;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -230,7 +230,7 @@ section .list li div {
 section .list li em {
   /* background: orange; */
   font-size: 30px;
-  font-weight: 700;
+  /* font-weight: 700; */
 
   height: 110px;
   display: flex;
@@ -263,7 +263,7 @@ section .list li img {
 section.service .list li em {
   /* background: orange; */
   font-size: 30px;
-  font-weight: 700;
+  /* font-weight: 700; */
 
   height: 110px;
   display: flex;
@@ -364,7 +364,6 @@ section.experience .list li span {
 section.experience .list .date {
   /* background: yellow;  */
   color: gray;
-  font-weight: 700;
   width: 400px;
   height: 50px;
   font-size: 14px;
@@ -402,7 +401,7 @@ section.growth .growth-center {
 }
 
 section.growth .bottom {
-  font-weight: 700;
+  /* font-weight: 700; */
   padding-top: 40px;
   padding-left: 370px;
 }
@@ -450,7 +449,7 @@ section.business .list li span {
 section.business .list li p {
   color: blue;
   font-size: 14px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 section.business .list li p i {
