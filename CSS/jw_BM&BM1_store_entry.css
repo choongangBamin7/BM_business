@@ -732,7 +732,85 @@ section.ad .ad_contents .ad_box .ad_box_content a img {
   border-radius: 5px;
 }
 /* section.consulting */
-
+section.consulting {
+  background: rgb(243, 245, 247);
+  padding: 100px 0;
+}
+section.consulting .consulting_contents {
+  width: 70%;
+  margin: 0 auto;
+}
+section.consulting .consulting_contents h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+section.consulting .consulting_contents .consulting_contents_box {
+  display: flex;
+  justify-content: space-between;
+}
+section.consulting .consulting_contents .consulting_contents_box .box {
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  text-align: left;
+  width: 48.5%;
+  background: #fff;
+  padding-bottom: 80px;
+}
+section.consulting .consulting_contents .consulting_contents_box .box h3 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+section.consulting .consulting_contents .consulting_contents_box .box p {
+  line-height: 1.2;
+  font-size: 20px;
+  color: #7e8082;
+}
+section.consulting .consulting_contents .consulting_contents_box .box p span {
+  margin: 20px 0;
+  display: inline-block;
+}
+section.consulting .consulting_contents .consulting_contents_box .box .btn {
+  width: 33%;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #1a7cff;
+  color: #1a7cff;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+section.consulting .consulting_contents .consulting_contents_box .box .btn a {
+  display: block;
+}
+section.consulting .consulting_contents .consulting_contents_box .box .img {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+section.consulting .consulting_contents .consulting_contents_box .box .img img {
+  height: 72px;
+  width: 72px;
+}
+section.consulting .consulting_contents .consulting_contents_box .online_apply {
+  color: #fff;
+  background: #1a7cff;
+}
+section.consulting .consulting_contents .consulting_contents_box .online_apply p {
+  color: #fff;
+}
+section.consulting .consulting_contents .consulting_contents_box .online_apply .online_apply_btn {
+  background: #fff;
+  color: #000;
+}
 /* footer style */
 
 footer {
