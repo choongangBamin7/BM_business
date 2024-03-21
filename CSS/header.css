@@ -1,5 +1,4 @@
 @import url(./common.css);
-
 @font-face {
   font-family: "Hanna";
   src: url(../font/BMHANNAPro.ttf);
@@ -7,13 +6,21 @@
 body {
   font-family: "Hanna";
 }
+
 /* header style */
 /* 이 클래스는 페이지 제목에 색이 바뀌는 효과를 위한 것입니다.*/
 .target_page {
   color: #2ac1bc;
   border-bottom: 4px solid #2ac1bc;
 }
-/* no fixed header*/
+header {
+  background: #fff;
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+}
 header .header1 {
   display: flex;
   width: 70%;
@@ -64,14 +71,7 @@ header .header1 .intro-text li a {
 header .header1 .intro-text li a:hover{
   background: rgba(228, 230, 232, 1);
 }
-/* positon-fixed header */
-header .header2 {
-  background: #fff;
-  position: fixed;
-  display: block;
-  width: 100%;
-  z-index: 99999;
-}
+
 header .header2 .main-header{
   width: 70%;
   margin: 0 auto;
